@@ -1,8 +1,11 @@
 {
-  "name": "suspense",
+  "name": "try-react-hooks",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "homepage": "https://v1adko.github.io/try-react-hooks",
+  "license": "MIT",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "react": "^16.7.0-alpha.0",
     "react-cache": "^16.6.0-alpha.8af6728",
     "react-dom": "^16.7.0-alpha.0",
@@ -13,7 +16,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
   },
   "eslintConfig": {
     "extends": "react-app"
