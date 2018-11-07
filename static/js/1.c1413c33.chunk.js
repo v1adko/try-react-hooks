@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[1],{23:function(e,t,n){"use strict";n.r(t);var r=n(0),a=n.n(r),c=n(6),i=n.n(c);t.default=function(e){var t=Object(r.useRef)();return Object(r.useEffect)(function(){return i.a.init(t.current,{max:25,speed:400,glare:!0,"max-glare":.5}),function(){return t.current.vanillaTilt.destroy()}},[]),a.a.createElement("div",{ref:t,className:"tilt-root"},a.a.createElement("div",{className:"tilt-child"},e.children))}}}]);
+//# sourceMappingURL=1.c1413c33.chunk.js.map
